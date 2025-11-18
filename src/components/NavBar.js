@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useDeferredValue } from "react";
 
 function NavBar() {
   return (
@@ -7,3 +7,4 @@ function NavBar() {
     </nav>
   );
 }
+ export default NavBar
